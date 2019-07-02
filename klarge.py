@@ -1,0 +1,6 @@
+a1,a2=input().split()
+a1=int(a1)
+a2=int(a2)
+l=list(map(int,input().split()))
+l.sort(reverse=True)
+print(l[a2-1])
